@@ -3,6 +3,7 @@ import { Container, Card} from 'semantic-ui-react';
 
 import Top from './Top.css';
 
+
 const top = () => {
     return(
         <Container className='ui inverted secondary center aligned segment' id='top-card-background'>
