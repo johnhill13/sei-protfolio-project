@@ -9,3 +9,7 @@
     color: rgba(0, 0, 0, 0.87);
   }
 
+  div #top-card-background {
+    height: -webkit-fill-availble !important;
+  
+  }

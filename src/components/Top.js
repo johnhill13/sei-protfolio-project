@@ -5,7 +5,7 @@ import Top from './Top.css';
 
 const top = () => {
     return(
-        <Container className='ui inverted secondary center aligned segment'>
+        <Container className='ui inverted secondary center aligned segment' id='top-card-background'>
            <Card
                 centered
                 header='John Hill'
