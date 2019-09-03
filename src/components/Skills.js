@@ -5,7 +5,7 @@ import { Container, Segment , Grid, List} from 'semantic-ui-react';
 const Skills = () => {
     return(
         <Container>
-        <Grid columns={2} relaxed='very'>
+        <Grid container columns={2} relaxed='very'>
             <Grid.Column textAlign='center' color='teal'>
                 <List animated verticalAlign='middle'>
                     <List.Item>
@@ -60,7 +60,7 @@ const Skills = () => {
                 </List>
             </Grid.Column>
         </Grid>
-        <Grid columns={2} relaxed='very'>
+        <Grid container columns={2} relaxed='very'>
             <Grid.Column textAlign='center' color='yellow'>
                 <List animated verticalAlign='middle'>
                     <List.Item>

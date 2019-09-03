@@ -18,6 +18,9 @@ class Home extends Component {
                 <Skills />
                 <Projects />
                 <Contact />
+                <Divider />
+
+
             </main>
         )
     }

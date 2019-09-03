@@ -4,10 +4,10 @@ import { Container, Icon} from 'semantic-ui-react';
 const contact = () => {
     return(
         <Container className='ui inverted secondary center aligned segment'>
-            <Icon link name='github' />
-            <Icon link name='linkedin' />
-            <Icon link name='mail outline' />
-            <Icon link name='user circle' />
+            <Icon link name='github' size='huge'/>
+            <Icon link name='linkedin' size='huge'/>
+            <Icon link name='mail outline'size='huge'/>
+            <Icon link name='user circle' size='huge'/>
         </Container>
     )
 }
