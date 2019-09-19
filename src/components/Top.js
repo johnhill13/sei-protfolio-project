@@ -10,7 +10,7 @@ const top = () => {
            <Card
                 centered
                 header='John Hill'
-                meta=' Fullstack Software Engineer'
+                meta='Software Engineer'
             />
         </Container>
     )
