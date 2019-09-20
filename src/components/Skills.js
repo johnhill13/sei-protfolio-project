@@ -15,6 +15,9 @@ const Skills = () => {
                         <List.Header>Python</List.Header>
                     </List.Item>
                     <List.Item>
+                        <List.Header>Swift</List.Header>
+                    </List.Item>
+                    <List.Item>
                         <List.Header>Django</List.Header>
                     </List.Item>
                     <List.Item>
@@ -88,10 +91,10 @@ const Skills = () => {
                         <List.Header>Jquery</List.Header>
                     </List.Item>
                     <List.Item>
-                        <List.Header>HTML</List.Header>
+                        <List.Header>HTML5</List.Header>
                     </List.Item>
                     <List.Item>
-                        <List.Header>CSS</List.Header>
+                        <List.Header>CSS3</List.Header>
                     </List.Item>
                 </List>
             </Grid.Column>
@@ -114,6 +117,9 @@ const Skills = () => {
                     </List.Item>
                     <List.Item>
                         <List.Header>Git</List.Header>
+                    </List.Item>
+                    <List.Item>
+                        <List.Header>Trello</List.Header>
                     </List.Item>
                 </List>
             </Grid.Column>
