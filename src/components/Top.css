@@ -1,4 +1,5 @@
 .content {
+    background-color: #EEF0F2 !important;
     border: none;
     margin: calc(2rem -  0.14285714em ) 0em 1rem;
     padding: 0em 0em;
@@ -10,6 +11,5 @@
   }
 
   div #top-card-background {
-    height: -webkit-fill-availble !important;
-  
+    height: -webkit-stretch-availble !important;
   }

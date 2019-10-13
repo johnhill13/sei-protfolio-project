@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Card} from 'semantic-ui-react';
-
+import './Top.css';
 
 const top = () => {
     return(
