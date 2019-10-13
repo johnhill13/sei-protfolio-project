@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { Container, Segment , Grid, List} from 'semantic-ui-react';
+import { Container, Grid, List} from 'semantic-ui-react';
 
 
 const Skills = () => {

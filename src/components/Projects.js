@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Container, Card, Placeholder, Header} from 'semantic-ui-react';
+import { Image, Container, Card, Header} from 'semantic-ui-react';
 import jacketERD from '../Images/jacket-pocket-erd.png';
 import jacketWire from '../Images/jacket-home.png';
 import jacketActual from '../Images/jacket-pocket-live.png';
