@@ -13,10 +13,10 @@ class Home extends Component {
             <main>
                 <Top />
                 <About />
+                <Contact />
                 <Skills />
                 <Projects />
                 <Form />
-                <Contact />
 
 
             </main>
