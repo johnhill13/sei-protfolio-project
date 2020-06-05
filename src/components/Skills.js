@@ -7,7 +7,7 @@ const Skills = () => {
     return(
         <Container className='skills-container'>
         <Grid container columns={2} relaxed='very'>
-            <Grid.Column textAlign='center' color='teal'>
+            <Grid.Column textAlign='center' className='skills-box-1'>
                 <List animated verticalAlign='middle'>
                     <List.Item>
                         <List.Header>JavaScript</List.Header>
@@ -53,7 +53,7 @@ const Skills = () => {
                     </List.Item>
                 </List>
             </Grid.Column>
-            <Grid.Column textAlign='center' color='yellow'>
+            <Grid.Column textAlign='center' className='skills-box-2'>
                 <List animated verticalAlign='middle'>
                     <List.Item>
                         <List.Header>Git</List.Header>
@@ -98,7 +98,7 @@ const Skills = () => {
             </Grid.Column>
         </Grid>
         <Grid container columns={2} relaxed='very'>
-            <Grid.Column textAlign='center' color='yellow'>
+            <Grid.Column textAlign='center' className='skills-box-2'>
                 <List animated verticalAlign='middle'>
                     <List.Item>
                         <List.Header>Object Oriented Programming</List.Header>
@@ -123,7 +123,7 @@ const Skills = () => {
                     </List.Item>
                 </List>
             </Grid.Column>
-            <Grid.Column textAlign='center' color='teal'>
+            <Grid.Column textAlign='center' className='skills-box-1'>
                 <List animated verticalAlign='middle'>
                     <List.Item>
                         <List.Header>Bootstrap</List.Header>
