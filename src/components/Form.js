@@ -1,25 +1,38 @@
-import React from 'react';
-import { Container, Divider, Button, Form} from 'semantic-ui-react';
+import React from "react";
+import {
+  Container,
+  Divider,
+  Button,
+  Form,
+  Grid,
+  Input
+} from "semantic-ui-react";
+import "./Form.css";
 
 const form = () => {
-    return(
-        <Container className='ui inverted secondary center aligned segment'>
-            <Form action='https://formspree.io/hillxjohn@gmail.com' method='POST' size='tiny' key='tiny'>
-                <Form.Group widths='equal'>
-                    <Form.Field
-                        label="Share your Email if you wish to connect."
-                        control='input'
-                        placeholder='Your Email'
-                        type='email'
-                        name='_replyto'
-                    />
-                </Form.Group>
-            <Button type='submit' value='Send'>Submit</Button>
-            <Divider hidden />
-            </Form>
-
-        </Container>
-    )
-}
+  return (
+    <Container className="ui inverted secondary segment">
+      <Form
+        action="https://formspree.io/hillxjohn@gmail.com"
+        method="POST"
+        size="medium"
+        key="medium"
+      >
+          <p>Please share your email below and I will reach out directly.</p>
+        <Input
+        //   label="Share your Email if you wish to connect."
+          control="input"
+          placeholder="Your Email"
+          type="email"
+          name="_replyto"
+          className="email-input"
+        />
+      </Form>
+      <Button type="submit" value="Send" size="tiny">
+        Submit
+      </Button>
+    </Container>
+  );
+};
 
 export default form;
