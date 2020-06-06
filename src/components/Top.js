@@ -9,13 +9,11 @@ const top = () => {
                 centered
                 header='John Hill'
                 meta='Software Engineer'
+                className='header-first-name'
             />
         </Container>
     )
 }
-
-
-
 
 
 export default top;

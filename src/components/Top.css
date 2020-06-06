@@ -13,3 +13,8 @@
   div #top-card-background {
     height: -webkit-stretch-availble !important;
   }
+
+.header-first-name {
+  font-size: 2em;
+  display: content;
+}

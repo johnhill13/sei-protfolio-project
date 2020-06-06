@@ -18,7 +18,7 @@ const form = () => {
         size="medium"
         key="medium"
       >
-          <p>Please share your email below and I will reach out directly.</p>
+          <h3>Please share your email below and I will reach out directly.</h3>
         <Input
         //   label="Share your Email if you wish to connect."
           control="input"
