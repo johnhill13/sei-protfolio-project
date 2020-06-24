@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Divider,
-  Button,
-  Form,
-  Grid,
-  Input,
-} from "semantic-ui-react";
+import { Container, Button, Form } from "semantic-ui-react";
 import "./Form.css";
 
 const form = () => {
@@ -22,7 +15,9 @@ const form = () => {
         accept-charset="utf-8"
       >
         <Form.Group>
-          <h3 className="share-info">Please share your info below and I will reach out to you directly.</h3>
+          <h3 className="share-info">
+            Please share your info below and I will reach out to you directly.
+          </h3>
           <Form.Input
             fluid
             type="text"
@@ -30,13 +25,13 @@ const form = () => {
             name="name"
             className="name-input"
           />
-            <Form.Input
-              fluid
-              placeholder="Email Address"
-              type="email"
-              name="_replyto"
-              className="email-input"
-            />
+          <Form.Input
+            fluid
+            placeholder="Email Address"
+            type="email"
+            name="_replyto"
+            className="email-input"
+          />
           <Form.Input
             fluid
             id="message"
