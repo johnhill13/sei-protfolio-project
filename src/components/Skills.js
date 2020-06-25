@@ -22,6 +22,9 @@ const Skills = () => {
                         <List.Header>React</List.Header>
                     </List.Item>
                     <List.Item>
+                        <List.Header>React Native</List.Header>
+                    </List.Item>
+                    <List.Item>
                         <List.Header>SQL</List.Header>
                     </List.Item>
                     <List.Item>
@@ -84,6 +87,9 @@ const Skills = () => {
                     </List.Item>
                     <List.Item>
                         <List.Header>Robo 3T</List.Header>
+                    </List.Item>
+                    <List.Item>
+                        <List.Header>Puppeteer</List.Header>
                     </List.Item>
                     <List.Item>
                         <List.Header>Chrome</List.Header>
