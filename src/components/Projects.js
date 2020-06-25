@@ -35,7 +35,7 @@ const projects = () => {
           . I built this POC in order to verify my understanding before
           implementing an uploader for a photography client. I learned/verified
           what I needed to- checking my understanding along the way before
-          embarking on the official build.
+          embarking on the official build. Followed online articles outlining abilites of Amazons technology. Awesome project which touched on many available features. 
         </Card.Description>
 
         <Card>
