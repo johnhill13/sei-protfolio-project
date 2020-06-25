@@ -5,6 +5,8 @@ import jacketWire from "../Images/jacket-home.png";
 import jacketActual from "../Images/jacket-pocket-live.png";
 import beautifyMain from "../Images/beautify-main.png";
 import beautifyProducts from "../Images/beautify-products.png";
+import photouploaderSignin from "../Images/photouploader-signin.png"
+import photouploaderAlbums from "../Images/photouploader-albums.png"
 import "./Projects.css";
 
 const projects = () => {
@@ -18,7 +20,7 @@ const projects = () => {
           to create thumbnails of images when uploaded to the album{" "}
           <a
             className="proj-link"
-            href="https://master.d3or6g43vjv1z5.amplifyapp.com/index.html"
+            href="https://master.d3or6g43vjv1z5.amplifyapp.com"
           >
             Photo Uploader
           </a>
@@ -38,17 +40,17 @@ const projects = () => {
 
         <Card>
           <Card.Content>
-            <Image src={beautifyMain} size="medium" />
+            <Image src={photouploaderSignin} size="medium" />
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
-            <Image src={beautifyProducts} size="medium" />
+            <Image src={photouploaderAlbums} size="medium" />
           </Card.Content>
         </Card>
         <Card>
           <Card.Content>
-            <Image src={beautifyProducts} size="medium" />
+            <Image src={""} size="medium" />
           </Card.Content>
         </Card>
       </Card.Group>
@@ -58,11 +60,10 @@ const projects = () => {
       <Card.Group itemsPerRow={3}>
         <Card.Description>
           Jacket-pocket was a fun, small trivia game where I try to use sockets
-          to play a game between friends, live by sharing a room. Succeeded in
+          to play a game between friends live by sharing the room. Succeeded in
           accomplishing MVP, working frontend and backend. Failed to implement
-          sockets in time for the due date of the project but I learned a ton.
-          Continuing to fully imagine this game intending to complete and deploy
-          this working 4 person trivia game. Stay tuned! Visit{" "}
+          sockets for submission. Plan to fully imagine this game; intending to complete and deploy
+          this working trivia game. Stay tuned! Visit{" "}
           <a className="proj-link" href="https://jacket-pocket.herokuapp.com">
             Jacket Pocket
           </a>{" "}
