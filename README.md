@@ -1,5 +1,6 @@
+Link to portfoil site [John Hill Portfolio](https://johnh-portfolio.herokuapp.com)
 
-Link to development site [Photo Uploader](https://master.d3or6g43vjv1z5.amplifyapp.com)
+Link to development project site [Photo Uploader](https://master.d3or6g43vjv1z5.amplifyapp.com)
 
 
 ## Personal Site
