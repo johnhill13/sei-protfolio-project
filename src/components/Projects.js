@@ -73,7 +73,7 @@ const projects = () => {
             href="https://github.com/johnhill13/jacket-pocket"
           >
             {" "}
-            Github
+            Github.
           </a>
         </Card.Description>
         <Card>
@@ -103,18 +103,18 @@ const projects = () => {
           handle/edit stock, pretty URL's for easy navigation, and Stripe
           payment integration. Successfully acheived the scope we defined and
           deployed the App in the time we determined. Please visit our early
-          collaboration
+          collaboration {" "}
           <a
             className="proj-link"
             href="https://beautify-ecommerce.herokuapp.com"
           >
-            Beautify
+            Beautify{" "}
           </a>
-          or take a look at our
+          or take a look at our {" "}
           <a className="proj-link" href="https://github.com/imaekella/Beautify">
-            Github
+            Github.{" "}
           </a>
-          . If you have a moment, take a look at all the members of our team via
+          If you have a moment, take a look at all the members of our team via
           the About page.
         </Card.Description>
 
